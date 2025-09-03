@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Album – Coming Soon</title>
+  <style>
+    body {
+      background: #0a0a0a;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    img {
+      max-width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.8);
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+      opacity: 0.8;
+    }
+    .link {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #1db954;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+    .link:hover {
+      background: #17a44d;
+    }
+  </style>
+</head>
+<body>
+  <img src="album-cover.jpg" alt="Album Cover">
+  <h1>PARAGON</h1>
+  <p>New Album • Coming Soon</p>
+  <a class="link" href="#">Stay Tuned</a>
+</body>
+</html>
